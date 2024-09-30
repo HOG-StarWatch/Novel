@@ -6,7 +6,7 @@ import sidebar from './sidebar.mjs';
 export default defineConfig({
   base: "/Novel/",
   head:[["link", { rel: "icon", href: "/SixStar_P.png" }]],
-  title: "HOG-StarWatch的主页",
+  title: "HOG-StarWatch的Novel主页",
   description: "HOG-StarWatch",
   lastUpdated: true,
   themeConfig: {
@@ -46,7 +46,7 @@ export default defineConfig({
     ],
 
     footer: {
-      copyright: 'Copyright © 2024-present StarWatch'
+      message: '所有资源来自于网络 侵删',
     },
     
     search: {
