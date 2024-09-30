@@ -1,6 +1,6 @@
-import { set_sidebar } from "../utils/auto-gen-sidebar.mjs";
+import generateSidebar from "../utils/auto-gen-sidebar.mjs";
 
 export default {
-    "/Pixiv/": set_sidebar("/Pixiv/"),
-    "/Novel/": set_sidebar("/Novel/"),
+    '/Pixiv/': generateSidebar("Pixiv"),
+    '/Novel/': generateSidebar("Novel"),
 };
