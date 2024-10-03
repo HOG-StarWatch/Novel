@@ -10,8 +10,5 @@ hero:
     - theme: brand
       text: 小说列表
       link: /Novel/
-    - theme: brand
-      text: 回到主页
-      link: https://hog-starwatch.github.io/
 ---
 
