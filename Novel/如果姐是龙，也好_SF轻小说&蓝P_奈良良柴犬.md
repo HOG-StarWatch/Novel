@@ -1,8 +1,9 @@
-来源：https://book.sfacg.com/Novel/565202/MainIndex/
-本文是使用怠惰小说下载器（DownloadAllContent）下载的
+---
+layout: page
+---
 
 ---
-如果姐是龙，也好目录列表 - 小说频道 - SF轻小说
+如果姐是龙，也好_SF轻小说&蓝P_奈良良柴犬
 ===
 
 
