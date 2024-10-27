@@ -9,6 +9,17 @@ export default defineConfig({
   title: "HOG-StarWatch的Novel主页",
   description: "HOG-StarWatch",
   lastUpdated: true,
+
+  markdown: {
+    config(md) {
+      const defaultCodeInline = md.renderer.rules.code_inline
+      md.renderer.rules.code_inline = (tokens, idx, options, env, self) => {
+        tokens[idx].attrSet('v-pre', '')
+        return defaultCodeInline(tokens, idx, options, env, self)
+      }
+    }
+  },
+
   themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
     logo: '/SixStar_P.png',
