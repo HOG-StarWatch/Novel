@@ -2,7 +2,7 @@ import generateSidebar from "../utils/auto-gen-sidebar.mjs";
 
 export default {
     '/Novel/': generateSidebar("Novel"),
-    '/N/': generateSidebar("N"),
+    '/Fiction/': generateSidebar("Fiction"),
     '/Pixiv/': generateSidebar("Pixiv"),
     '/Comix/': generateSidebar("Comix"),
 };
